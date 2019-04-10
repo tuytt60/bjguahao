@@ -351,6 +351,7 @@ class Guahao(object):
                 'medicareCardId': medicare_card_id,
                 "reimbursementType": reimbursement_type, # 报销类型
                 'smsVerifyCode': sms_code,          # TODO 获取验证码
+                'kinshipName': "林光远",
                 'childrenBirthday': "",
                 'isAjax': True
             }

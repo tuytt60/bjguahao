@@ -1,12 +1,12 @@
 
 # username: 您的的用户名(一般是手机号码)
-username: "13888888888"
+username: "15012345678"
 
 # password: 密码
-password: "*****"
+password: "123"
 
 # date: 挂号日期,如填写latest自动挂最新一天
-date: "2018-01-01"
+date: "2019-04-15"
 
 
 # hospitalId: 医院id
@@ -27,7 +27,7 @@ dutyCode: "1"
 
 # patientName: 患者姓名
 # 若是自己挂号可为空
-patientName: ""
+patientName: "林宝群"
 
 # 就诊卡号
 hospitalCardId: ""
@@ -38,12 +38,12 @@ medicareCardId: ""
 # 保险类型
 # 1:医保
 # 10:自费
-reimbursementType: "1"
+reimbursementType: "10"
 
 # doctorName: 医生姓名
 # 不填写的话默认选最好的医生
 # 填写后若这个医生没有号，会自动选其余号中最好的医生
-doctorName: "扁鹊"
+doctorName: "杨学东"
 
 #挂号类型是否为儿童号
 children: "false"
@@ -57,7 +57,7 @@ childrenIdNo: ""
 #患儿证件
 #1:身份证
 #2:其他
-cidType: "1"
+cidType: "2"
 
 #如果证件选择其他以下为必填否则不填
 #患儿性别
@@ -76,7 +76,7 @@ chooseBest: "yes"
 
 # DebugLevel: 调试等级
 # 支持的调试等级有 debug/info/warning/error/critical
-DebugLevel: "info"
+DebugLevel: "debug"
 
 #使用ios短信和mac电脑接收验证码
 useIMessage: "false"
