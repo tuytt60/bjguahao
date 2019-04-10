@@ -6,14 +6,22 @@ username: "15012345678"
 password: "123"
 
 # date: 挂号日期,如填写latest自动挂最新一天
-date: "2019-04-15"
+date: "2019-04-21"
 
+# 需要挂早上的号请填写1  需要挂下午的号请填写2
+dutyCode: "1"
 
 # hospitalId: 医院id
 hospitalId: "162"
 
 # departmentId: 科室id
 departmentId: "200002248"
+
+
+# doctorName: 医生姓名
+# 不填写的话默认选最好的医生
+# 填写后若这个医生没有号，会自动选其余号中最好的医生
+doctorName: "李世军"
 
 # 关于如何获取 hospitalId 和 departmentId
 # 1. 打开挂号页面
@@ -22,8 +30,7 @@ departmentId: "200002248"
 # 4. 其中 200002248 是 departmentId
 
 
-# 需要挂早上的号请填写1  需要挂下午的号请填写2
-dutyCode: "1"
+
 
 # patientName: 患者姓名
 # 若是自己挂号可为空
@@ -40,10 +47,7 @@ medicareCardId: ""
 # 10:自费
 reimbursementType: "10"
 
-# doctorName: 医生姓名
-# 不填写的话默认选最好的医生
-# 填写后若这个医生没有号，会自动选其余号中最好的医生
-doctorName: "杨学东"
+
 
 #挂号类型是否为儿童号
 children: "false"
