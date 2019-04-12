@@ -265,10 +265,10 @@ class Guahao(object):
                 logging.info("选中:" + str(doctor["doctorName"]))
                 return doctor
 
-        for doctor in doctors:
-            if doctor['remainAvailableNumber']:
-                logging.info("选中:" + str(doctor["doctorName"]))
-                return doctor
+        # for doctor in doctors:
+        #     if doctor['remainAvailableNumber']:
+        #         logging.info("选中:" + str(doctor["doctorName"]))
+        #         return doctor
 
         return "NoDuty"
 
@@ -488,7 +488,8 @@ class Guahao(object):
                 if self.start_time + datetime.timedelta(seconds=30) < datetime.datetime.now():
                     # 确认无号，终止程序
                     logging.error("没号了,  亲~")
-                    break
+                    time.sleep(1)
+                    # break
                 else:
                     # 未到时间，强制重试
                     logging.debug("放号时间: " + self.start_time.strftime("%Y-%m-%d %H:%M"))
