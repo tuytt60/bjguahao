@@ -11,6 +11,11 @@ date: "2019-04-21"
 # 需要挂早上的号请填写1  需要挂下午的号请填写2
 dutyCode: "1"
 
+# doctorName: 医生姓名
+# 不填写的话默认选最好的医生
+# 填写后若这个医生没有号，会自动选其余号中最好的医生
+doctorName: "李世军"
+
 # hospitalId: 医院id
 hospitalId: "162"
 
@@ -18,10 +23,7 @@ hospitalId: "162"
 departmentId: "200002248"
 
 
-# doctorName: 医生姓名
-# 不填写的话默认选最好的医生
-# 填写后若这个医生没有号，会自动选其余号中最好的医生
-doctorName: "李世军"
+
 
 # 关于如何获取 hospitalId 和 departmentId
 # 1. 打开挂号页面
